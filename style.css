@@ -1,0 +1,247 @@
+:root {
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF;
+    --grey-color: #757575;
+    --wwhite-color: #F5F4FA;
+    --shadow-color: #2F303A;
+    --bblack-color: #000000;
+    --mint-color: #19cbb1;
+}
+a {
+    text-decoration: none;
+
+}
+li {
+    list-style: none;
+}
+span {
+    color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black-color);
+    }   
+
+
+.header {
+background: var(--white-color);
+}
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: var(--bblack-color);
+}
+.specks {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--black-color);
+}
+.specks:hover, .specks:focus{
+    color: #2196F3;
+}
+.contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: var(--grey-color);
+}
+.contacts:hover, .contacts:focus, .contacts-footer:hover, .contacts-footer:focus{
+    color: var(--blue-color);
+}
+.busines-solution {
+    background: var(--shadow-color);
+}
+.efficiency {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--white-color);
+}
+.service {
+width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
+    border-radius: 4px;
+    border: 4px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--white-color);;
+    cursor: pointer;
+}
+.service:hover, .service:focus {
+    background: var(--mint-color);
+}
+.descriptionh {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--black-color);
+    
+}
+.descriptionp {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+}
+.teg {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black-color);
+}
+.name {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black-color);
+
+}
+.rank {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+}
+.comand {
+    background: var(--wwhite-color);
+}
+.logo-footer {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: var(--white-color);
+}
+footer {
+    background: var(--shadow-color);
+}
+.footer-map {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--white-color);
+}
+.contacts-footer {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.transition-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--black-color);
+    background: var(--wwhite-color);
+border-radius: 4px;
+border: var(--wwhite-color)  4px;
+padding: 6px 22px 6px 22px;
+}
+
+.transition-button:hover, .transition-button:focus {
+    background: var(--blue-color);
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+border: var(--blue-color)  4px;
+color: var(--white-color);
+transition: .2s linear;
+}
+.squares {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: var(--black-color);
+}
+.squares-myproject {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+}
